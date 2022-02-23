@@ -9,7 +9,6 @@ import './assets/css/home.css';
 import './assets/others.css'
 
 import Navbar from './components/Navbar'
-import Advertisement from './components/Advertisement';
 import Question from './components/Question';
 import Leaderboard from './components/Leaderboard'
 import Contactus from './components/Contactus';
@@ -125,7 +124,6 @@ export default class App extends Component
             return(
                     <UserProvider.Provider value={this.state}>
                         <Navbar/>
-                        <Advertisement/>
                         <Switch>
                             <Route exact path="/game/" render={(props)=><Question {...props}/>}/>
                             <Route exact path="/game/leaderboard" render={(props)=><Leaderboard {...props}/>} />
