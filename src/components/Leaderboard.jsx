@@ -11,6 +11,7 @@ const override = css`
   display: block;
   text-align: center;
   border-color: red;
+  background: linear-gradient(308deg,#d34020,#3b2ee7);
   margin-top:25px;
 `;
 
@@ -91,7 +92,7 @@ export default class Leaderboard extends Component
                 <div className="table-responsive">
                 <table className="table">
                     
-                    <thead className="thead-dark">
+                    <thead className="thead-light">
                               <tr>
                                     <th scope="col">Rank</th>
                                     {/* <th scope="col">Name</th> */}

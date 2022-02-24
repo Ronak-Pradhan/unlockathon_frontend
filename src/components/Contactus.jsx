@@ -26,13 +26,13 @@ const ContactUs = ()=>
 
                         <tbody>
                             <tr>
-                                <td>Omkar Masur</td>
-                                <td><a className="btn btn-info" href="https://api.WhatsApp.com/send?phone=+919930147279">WhatsApp (9930147279)</a></td>
+                                <td>Ronak Pradhan</td>
+                                <td><a className="btn btn-info" href="https://api.WhatsApp.com/send?phone=+919930147279">WhatsApp (8342877713)</a></td>
                             </tr>
 
                             <tr>
-                                <td>Shubham Pathak</td>
-                                <td><a className="btn btn-info" href="https://api.WhatsApp.com/send?phone=+918130180208">WhatsApp (8130180208)</a></td>
+                                <td>Bhakti Manakapure</td>
+                                <td><a className="btn btn-info" href="https://api.WhatsApp.com/send?phone=+918130180208">WhatsApp (8178006463)</a></td>
                             </tr>
                             
                         </tbody>

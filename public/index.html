@@ -39,5 +39,19 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="%PUBLIC_URL%/three.r92.min.js"></script>
+    <script src="%PUBLIC_URL%/vanta.dots.min.js"></script>
+    <script>
+VANTA.DOTS({
+  el: "#root",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 1000,
+  minWidth: 1000,
+  scale: 1.00,
+  scaleMobile: 1.00
+})
+    </script>
   </body>
 </html>
