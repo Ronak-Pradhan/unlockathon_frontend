@@ -291,10 +291,10 @@ export default class Question extends Component
                     <React.Fragment>
                     <div className="question">
                     <h2>Level {this.context.current_question} </h2>
-                    <h4 style={{fontSize: '22px', textAlign: 'center'}}>{this.state.question}</h4>
+                    <p style={{fontSize: '22px', textAlign: 'center', width: '100%', height: '20%', overflowWrap: 'break-word',WordWrap: 'break-word', hyphens: 'auto', padding: '10px'}}>{this.state.question}</p>
                     <br/>
                     
-                    <img src={this.state.image} height='200' width='200' alt=''/>
+                    <img src={this.state.image} height='300' width='400' alt=''/>
                         
                                                 
                     </div>
@@ -352,7 +352,7 @@ export default class Question extends Component
     {
         return(
                 <div id="main">
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row row1">
                         {/* <!-- <div className="col-lg-2 col-md-2"></div> --> */}
                         <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12">

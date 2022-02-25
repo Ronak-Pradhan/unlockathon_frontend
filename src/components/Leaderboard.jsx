@@ -92,8 +92,8 @@ export default class Leaderboard extends Component
                 <div className="table-responsive">
                 <table className="table">
                     
-                    <thead className="thead-light">
-                              <tr>
+                    <thead className="thead1">
+                              <tr className="tableHeader">
                                     <th scope="col">Rank</th>
                                     {/* <th scope="col">Name</th> */}
                                     <th scope="col">Registration Number</th>
@@ -147,11 +147,11 @@ export default class Leaderboard extends Component
     {
         return(
             <div id="main" className="mt-4">
-                <div className="container">
+                <div className="container" style={{background: 'rgba(0, 0, 0, 0.61)', opacity: '0.9',color: 'white'}}>
                     <div className="row">
                         {/* <!-- <div className="col-lg-2 col-md-2"></div> --> */}
                         <div className="col-12 text-center">
-                        <div className="question-back text-center" style={{opacity: 0.7}}>
+                        <div className="question-back1 text-center" >
                             <button className="btn btn-primary float-right" onClick={()=>this.reloadLeaderboard()}><span>&#8634;</span></button>
                             {this.render_leaderbord.bind(this)()}
                             

@@ -27,6 +27,14 @@ class Events extends Component
                                     <td>Oasis</td>
                                     <td>AB5 403 25th January</td>
                                 </tr>
+                                <tr className="pure-table-odd">
+                                    <td>Talk by Mr.Sunil Varkey</td>
+                                    <td><a href="https://forms.gle/BSeitmHQkE2bfXe2A">MS Teams, 4th March 6pm</a></td>
+                                </tr>
+                                <tr className="pure-table-odd">
+                                    <td>Talk by Khushhal Kaushik</td>
+                                    <td><a href="https://forms.gle/iELZ4YqCnTXpx2Hg6" style={{textDecoration:'none'}}>MS Teams, 7th March 12pm</a></td>
+                                </tr>
                             </tbody>
 
                       </table>

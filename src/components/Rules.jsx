@@ -12,7 +12,7 @@ const Rules =()=>{
                         <div className="question-back text-center" >
                             <div className="table-responsive">
 
-                            <ul style={{listStyleType:'upper-roman', color:'white'}}><li>THE QUESTION DISPLAYED IS A CLUE TO A PLACE IN MANIPAL</li>
+                            <ul style={{listStyleType:'upper-roman', color:'white', textTransform:'capitalize!important'}}><li>THE QUESTION DISPLAYED IS A CLUE TO A PLACE IN MANIPAL</li>
 											<li>THE QUESTIONS DISPLAYED REVOLVE AROUND THE STORY WHICH IS BASED IN MANIPAL.</li>
 											<li>UNLOCK NEW PARTS OF THE STORY WITH EACH CORRECT ANSWER</li>
                                             <li>YOU WILL HAVE TO TYPE THE ANSWERS SO MAKE SURE THERE ARE NO ERRORS IN THE SPELLINGS
