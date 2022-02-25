@@ -1,8 +1,8 @@
 .table2{
     border-radius: 20px 20px;
     padding-bottom: 5%;
-    background: linear-gradient(to bottom right, #dedce8, #f9f9f9,#1111);
-    opacity: 0.8;
+    background: #000000;
+    opacity: 0.9;
     width: 100%;
 }
 .button {

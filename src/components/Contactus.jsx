@@ -11,7 +11,7 @@ const ContactUs = ()=>
                 <div className="row">
                    
                     <div className="col-12 text-center">
-                    <div className="question-back text-center" style={{opacity: 0.7}}>
+                    <div className="question-back text-center" >
                     <div className="table-responsive">
                     <table className="table">
                     

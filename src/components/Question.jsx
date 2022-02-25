@@ -356,7 +356,7 @@ export default class Question extends Component
                     <div className="row row1">
                         {/* <!-- <div className="col-lg-2 col-md-2"></div> --> */}
                         <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                        <div className="question-back" style={{opacity: 0.7}}>
+                        <div className="question-back" >
                             {this.render_question.bind(this)()}
                         </div>
                            

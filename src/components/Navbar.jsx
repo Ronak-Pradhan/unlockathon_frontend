@@ -33,7 +33,7 @@ export default class Navbar extends Component
     {
         return(
 
-            <BootstrapNav sticky="top" collapseOnSelect expand="lg" bg="light" variant="dark" expanded={this.state.expanded} onToggle={()=>this.toggleNav.bind(this)()}>
+            <BootstrapNav sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark" expanded={this.state.expanded} onToggle={()=>this.toggleNav.bind(this)()}>
                 <Link to="/game/">
                 <BootstrapNav.Brand>ᑌᑎᒪOᑕKᗩTᕼOᑎ </BootstrapNav.Brand>
                 </Link>
