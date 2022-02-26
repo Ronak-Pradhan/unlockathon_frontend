@@ -27,12 +27,12 @@ const ContactUs = ()=>
                         <tbody>
                             <tr>
                                 <td>Ronak Pradhan</td>
-                                <td><a className="btn btn-info" href="https://api.WhatsApp.com/send?phone=+919930147279">WhatsApp (8342877713)</a></td>
+                                <td><a className="btn btn-info" href="https://api.WhatsApp.com/send?phone=+918342877713">WhatsApp (8342877713)</a></td>
                             </tr>
 
                             <tr>
                                 <td>Bhakti Manakapure</td>
-                                <td><a className="btn btn-info" href="https://api.WhatsApp.com/send?phone=+918130180208">WhatsApp (8178006463)</a></td>
+                                <td><a className="btn btn-info" href="https://api.WhatsApp.com/send?phone=+918178006463">WhatsApp (8178006463)</a></td>
                             </tr>
                             
                         </tbody>

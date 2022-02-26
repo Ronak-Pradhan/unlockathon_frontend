@@ -155,6 +155,16 @@ ul{
 .table{
     color: #fff;
 }
+
+.table a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.table a:hover{
+    cursor: pointer;
+}
+
 .question-back1{
     font-size: 1.3rem;
     text-align: center;
