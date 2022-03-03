@@ -25,7 +25,7 @@ class Events extends Component
                                 </tr>
                                 <tr className="pure-table-odd">
                                     <td>Oasis</td>
-                                    <td><a href="https://forms.gle/otG3TKiK1X1vLiL68">Registration Link</a></td>
+                                    <td><a href="https://forms.gle/JHeT8UBAAZahF4FSA">Registration Link</a></td>
                                 </tr>
                                 <tr className="pure-table-odd">
                                     <td>Talk by Mr.Sunil Varkey</td>

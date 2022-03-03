@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Events from './Events';
 import UserProvider from '../providers/UserProvider'
 import PulseLoader from 'react-spinners/PulseLoader';
+import parse from 'html-react-parser'
 
 
 import { css } from "@emotion/core";
@@ -180,7 +181,7 @@ export default class Question extends Component
         {
             return(
                 <div id="hint" >
-                    <h4 style={{color: 'black'}}>{this.state.hint}</h4>
+                    <h4 style={{color: 'white'}}>{this.state.hint}</h4>
                     <br />  
                 </div>
             );
@@ -291,11 +292,11 @@ export default class Question extends Component
                     <React.Fragment>
                     <div className="question">
                     <h2>Level {this.context.current_question} </h2>
-                    <p style={{fontSize: '22px', textAlign: 'center', width: '100%', height: '20%', overflowWrap: 'break-word',WordWrap: 'break-word', hyphens: 'auto', padding: '10px'}}>{this.state.question}</p>
+                    <p style={{fontSize: '22px', textAlign: 'center', width: '100%', height: '20%', overflowWrap: 'break-word',WordWrap: 'break-word', hyphens: 'auto', padding: '10px'}}>{parse(this.state.question)}</p>
                     <br/>
-                    
-                    <img src={this.state.image} height='300' width='400' alt=''/>
-                        
+                    { this.state.image?
+                    <img src={this.state.image} height='300' width='400' alt=''/>:<></>
+                    }
                                                 
                     </div>
                     <center>
